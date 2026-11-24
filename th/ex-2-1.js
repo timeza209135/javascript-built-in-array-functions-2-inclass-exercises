@@ -9,7 +9,10 @@
 */
 
 // Start coding here
-
+function organizeSeat(guestList, startSeatNo, numberOfGuest) {
+  const SeatDelete = guestList.splice(startSeatNo, numberOfGuest)
+  return guestList
+}
 const guestList = [
   "John",
   "Sarah",

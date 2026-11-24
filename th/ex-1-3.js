@@ -8,6 +8,10 @@
 */
 
 // Start coding here
+function availableSeat(guestList, number) {
+  const availableSeatCount = guestList.slice(0,number);
+  return availableSeatCount;
+}
 
 const guestList = [
   "John",
